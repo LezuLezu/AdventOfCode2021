@@ -1,7 +1,3 @@
-
-from os import popen
-
-
 def getData():
     data = []
     for line in open('Day_2/data.txt', 'r'):
