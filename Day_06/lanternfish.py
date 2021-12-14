@@ -1,6 +1,6 @@
 from collections import defaultdict
 def getData():
-    with open("Day_6/data.txt", "r") as file:
+    with open("Day_06/data.txt", "r") as file:
         data = [int(age) for age in file.read().strip().split(",")]
     return data
 

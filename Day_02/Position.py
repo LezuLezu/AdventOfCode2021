@@ -1,6 +1,6 @@
 def getData():
     data = []
-    for line in open('Day_2/data.txt', 'r'):
+    for line in open('Day_02/data.txt', 'r'):
         items = line.rstrip('\n').split(' ')
         items = [item.strip() for item in items]
         items[1] = int(items[1])

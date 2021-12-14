@@ -3,7 +3,7 @@ from collections import defaultdict
 def getData():
     # put data from txt file (data coppied from web input) into a list
     data = []
-    for line in open('Day_5/data.txt', 'r'):
+    for line in open('Day_05/data.txt', 'r'):
         items = line.rstrip()
         items = re.split("\n | ->", items)      
         items = [item.strip().split(",") for item in items]       

@@ -2,7 +2,7 @@ from collections import defaultdict
 
 def getData():      
     #read data from file into list
-    with open("Day_7/data.txt", "r") as file:
+    with open("Day_07/data.txt", "r") as file:
         data = [int(x) for x in file.read().strip().split(',')]
     return data
 

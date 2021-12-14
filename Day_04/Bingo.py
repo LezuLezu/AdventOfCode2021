@@ -1,8 +1,8 @@
 import numpy as np
 def getData():      #read file and format data
-    data = [x for x in open('Day_4/data.txt', 'r').read().strip().split('\n')]
+    data = [x for x in open('Day_04/data.txt', 'r').read().strip().split('\n')]
     numbers = [int(x) for x in data[0].split(",")]
-    boards = [[y.split() for y in line.split("\n")] for line in open('Day_4/data.txt', 'r').read().strip().split('\n\n')][1:]
+    boards = [[y.split() for y in line.split("\n")] for line in open('Day_04/data.txt', 'r').read().strip().split('\n\n')][1:]
     boards = [[[int(x) for x in row] for row in board] for board in boards]
     return numbers, boards
 

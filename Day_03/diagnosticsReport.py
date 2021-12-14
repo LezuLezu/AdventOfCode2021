@@ -3,7 +3,7 @@ from collections import Counter
 def getData():
     # put data from txt file (data coppied from web input) into a list
     data = []
-    with open('Day_3/data.txt', 'r') as f:
+    with open('Day_03/data.txt', 'r') as f:
         dataF = f.read().split('\n')
         for i in dataF:
             data.append(i)   

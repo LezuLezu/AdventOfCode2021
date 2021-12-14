@@ -55,8 +55,8 @@ def getPartTwo(data):
     return total
 
 if __name__ == "__main__":  
-    test_data = getData("Day_8/test_data.txt")
-    data = getData("Day_8/data.txt")
+    test_data = getData("Day_08/test_data.txt")
+    data = getData("Day_08/data.txt")
     # print(data)
     print("\nPart 1 \n")
     print("Test data: %s" %(getOutputs(test_data)))
